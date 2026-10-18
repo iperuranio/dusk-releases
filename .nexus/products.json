@@ -1,0 +1,20 @@
+{
+  "products": [
+    {
+      "id": "dusk",
+      "name": "Dusk",
+      "kind": "app",
+      "tagPrefix": "v",
+      "icon": "icon.png",
+      "updates": "self",
+      "platforms": {
+        "win": {
+          "asset": "^Dusk_.*_x64-setup\\.exe$",
+          "installer": "win-nsis-user",
+          "exeName": "Dusk.exe",
+          "installDir": "%LOCALAPPDATA%\\Dusk"
+        }
+      }
+    }
+  ]
+}
